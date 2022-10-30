@@ -1,0 +1,342 @@
+/* 
+    Created on : May 18, 2022, 6:01:09 PM
+    Author     : Gabriel Inácio <gabrielinacio@id.uff.br>
+*/
+
+.dashboard-body {
+    background-color: #FBFBF8;
+}
+
+.dashboard-content {
+    width: 100%;
+}
+
+.dashboard-filters {
+    
+}
+
+.dashboard-view {
+    
+}
+
+.dashboard-view-line {
+    
+}
+
+.dashboard-view-line-title {
+    border-color: #00166b;
+    border-width: 1px;
+    border-radius: 5px !important;
+    border-style: solid;
+    color: #FBFBF8;
+    cursor: pointer;
+    padding: 0 !important;
+    height: calc(3rem + 2px) !important;
+    margin-right: 0.5rem;
+}
+
+.dashboard-view-line-title-box {
+    display: inline-block;
+}
+
+.dashboard-view-line-title-box-p1 {
+    display: inline-block;
+    background-color: #00166b;
+    padding: 0.75rem;
+}
+.dashboard-view-line-title-box-p2 {
+    display: inline-block;
+}
+
+.dashboard-view-line-title-text {
+    margin: 0 0 0 0.75rem;
+    font-weight: bold;
+    display: inline-block;
+    color: #FFF;
+}
+
+.dashboard-view-line-title-text-2 {
+    margin: 0 0 0 0.5rem;
+    font-weight: bold;
+    display: inline-block;
+    color: #00166b;
+}
+
+.dashboard-view-line-title-icon {
+    display: inline-block;
+    color: #FFF;
+}
+
+.dashboard-view-line-gender-icon {
+    margin: 0 0 0 1rem;
+    display: inline-block;
+    font-size: 16pt;
+    vertical-align: middle;
+}
+
+.dashboard-view-line-content {
+
+}
+
+.dashboard-view-line-content-chart {
+
+}
+
+.dashboard-view-line-content-chart-box {
+
+}
+
+.dashboard-view-line-content-chart-canvas {
+    min-height: 17.5rem;
+}
+
+.dashboard-card {
+    margin: 1rem 0;
+}
+
+.dashboard-plus {
+    margin: 1rem 0 0 0;
+}
+.dashboard-plus-content {
+}
+
+.dashboard-download-pcap-button {
+    display: inline-block;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    color: #FFF !important;
+}
+
+.dashboard-download-pcap-sel {
+    border-color: #28a745;
+    border-width: 1px 0 1px 1px;
+    border-radius: 5px;
+    border-style: solid;
+    display: inline-block;
+}
+
+.dashboard-info-button {
+    height: calc(3rem + 2px) !important;
+    background-color: #00166b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 0.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.dashboard-view-line-info-icon {
+    font-size: 16pt;
+    vertical-align: middle !important;
+    color: #FBFBF8;
+}
+
+.dashboard-download-button {
+    height: calc(3rem + 2px) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+}
+
+.dashboard-view-line-download-icon {
+    font-size: 16pt;
+    vertical-align: middle !important;
+}
+
+.dashboard-download-pcap {
+    margin-top: 1rem;
+}
+
+.dashboard-info {
+    margin-top: 1rem;
+}
+
+.dashboard-info-content {
+    border-color: #00166b;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    height: 17.5rem;
+    overflow: hidden;
+}
+
+.dashboard-info-content-body {
+    overflow: hidden;
+    overflow-y: auto
+}
+
+.dashboard-question-box {
+    text-align: justify;
+}
+
+.dashboard-question {
+    margin: 0.25rem 0;
+}
+
+.dashboard-answer-box {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dashboard-answer {
+
+}
+
+.dashboard-help {
+    border-width:1px;
+    border-style:solid;
+    border-radius: 5px;
+    border-color: #00166b;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width:450px;
+    z-index:999
+}
+
+.dashboard-help-button {
+    height: calc(3rem + 2px) !important;
+    aspect-ratio: 1 / 1 !important;
+    padding: 10px;
+    text-align: center;
+    background-color: #00166b;
+}
+
+.dashboard-help-icon {
+    font-size: 16pt;
+    vertical-align: middle !important;
+    color: #FBFBF8;
+}
+
+.dashboard-new-filter {
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin: 0 0 1rem 0 !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+.dashboard-select {
+    background-color: #FBFBF8;
+}
+
+.dashboard-select button {
+    border: 1px solid #ced4da;
+}
+
+.dashboard-help-content {
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00166b;
+    padding: 10px;
+    font-size: 10pt;
+    font-weight: bold;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 75px;
+    z-index: 999;
+}
+
+.dashboard-view-filter {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.dashboard-view-filter-title {
+    background-color: #FBFBF8;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    cursor: pointer;
+}
+
+.dashboard-view-filter-title-text {
+    margin: 0;
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 7px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.dashboard-view-filter-content {
+    border-top-width: 1px;
+    border-top-style: solid;
+    min-height: 10px;
+    padding: 10px;
+}
+
+.dashboard-view-filter-del {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.dashboard-view-filter-title-icon {
+    padding-top: 10px;
+}
+
+.dashboard-view-filter-download {
+    margin-left: 5px;
+}
+
+.dashboard-table-div {
+    width: 100%;
+    max-height: 380px;
+    margin: 0 15px;
+    padding: 0;
+    border-style: solid;
+    border-radius: 5px !important;
+    border-width: 1px;
+    border-color: #dee2e6;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.dashboard-table {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.dashboard-view-filter-count {
+    background-color: #FBFBF8;
+    border-style: solid;
+    border-radius: 5px !important;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.dashboard-view-filter-count-2 {
+    background-color: #FBFBF8;
+    border-style: solid;
+    border-radius: 5px !important;
+    border-width: 1px;
+}
+
+.dashboard-view-filter-box {
+    margin: 2px 0 2px 5px;
+}
+
+.dashboard-view-filter-text {
+    color: #000;
+    font-weight: bold;
+    margin: 0;
+}
