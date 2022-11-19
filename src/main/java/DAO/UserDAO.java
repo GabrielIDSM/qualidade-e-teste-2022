@@ -2,7 +2,7 @@ package DAO;
 
 import DTO.UserDTO;
 import Factory.ConnectionFactory;
-import jakarta.persistence.EntityManager;
+import javax.persistence.EntityManager;
 import java.util.List;
 
 /**
